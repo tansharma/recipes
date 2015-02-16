@@ -13,7 +13,7 @@
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/adapter</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://www.macroplant.com/adapter/download-mac</string>
+        <string>http://downloads.macroplant.com/Adapter-2.1.4.dmg?_ga=1.105779392.2136378653.1424098968</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/adapter</string>
         <key>pkginfo</key>
