@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string> A brief description of the software you will be packaging</string>
+    <string>A brief description</string>
     <key>Identifier</key>
-    <srting>com.github.tansharma.munki.Adapter</string>
+    <string>com.github.tansharma.munki.Adapter</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -13,7 +13,7 @@
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/adapter</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://www.macroplant.com/adapter/download-mac.php></string>
+        <string>http://www.macroplant.com/adapter/download-mac.php</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/adapter</string>
         <key>pkginfo</key>
@@ -27,15 +27,15 @@
             <key>display_name</key>
             <string>Adapter</string>
             <key>name</key>
-            </string>%NAME%</string>
+            <string>%NAME%</string>
             <key>unattended_install</key>
             <true/>
         </dict>
     </dict>
-    <key>MinimumVersion</key>
-    <string>2.0.0</string>
-    <key>Process</key>
-    <array>
+<key>MinimumVersion</key>
+<string>2.0.0</string>
+<key>Process</key>
+<array>
        <dict>
          <key>Processor</key>
          <string>URLDownloader</string>
