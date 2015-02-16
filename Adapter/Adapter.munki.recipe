@@ -5,7 +5,7 @@
     <key>Description</key>
     <string> A brief description of the software you will be packaging</string>
     <key>Identifier</key>
-    <srting>com.github.autopkg.munki.Adapter</string>
+    <srting>com.github.tansharma.munki.Adapter</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
