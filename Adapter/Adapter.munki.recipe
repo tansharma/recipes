@@ -9,11 +9,11 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Adapter</string>
+        <string>VLC</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://www.spotify.com/download/Spotify.dmg</string>
+        <string>http://get.videolan.org/vlc/2.1.5/macosx/vlc-2.1.5.dmg</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -21,9 +21,9 @@
                 <string>testing</string>
             </array>
             <key>description</key>
-            <string>Adapter converts video, audio and images</string>
+            <string>VLC Test</string>
             <key>display_name</key>
-            <string>Adapter</string>
+            <string>VLC</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
