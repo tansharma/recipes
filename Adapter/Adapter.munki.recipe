@@ -13,7 +13,7 @@
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://downloads.macroplant.com/Adapter-2.1.4.dmg?_ga=1.105779392.2136378653.1424098968</string>
+        <string>http://www.spotify.com/download/Spotify.dmg</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -31,7 +31,7 @@
         </dict>
     </dict>
 <key>MinimumVersion</key>
-<string>2.0.0</string>
+<string>0.2.0</string>
 <key>Process</key>
 <array>
        <dict>
