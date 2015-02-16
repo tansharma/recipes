@@ -13,7 +13,7 @@
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/adapter</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://www.macroplant.com/adapter/download-mac.php</string>
+        <string>http://www.macroplant.com/adapter/download-mac</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/adapter</string>
         <key>pkginfo</key>
