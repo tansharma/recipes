@@ -11,11 +11,9 @@
         <key>NAME</key>
         <string>Adapter</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>apps/adapter</string>
+        <string>apps</string>
         <key>DOWNLOAD_URL</key>
         <string>http://downloads.macroplant.com/Adapter-2.1.4.dmg?_ga=1.105779392.2136378653.1424098968</string>
-        <key>MUNKI_REPO_SUBDIR</key>
-        <string>apps/adapter</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
