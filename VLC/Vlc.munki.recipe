@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>A brief description</string>
+    <string>Test recipe for VLC 2.1.5</string>
     <key>Identifier</key>
-    <string>com.github.tansharma.munki.Adapter</string>
+    <string>com.github.tansharma.munki.Vlc</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
