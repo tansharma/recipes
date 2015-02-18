@@ -35,7 +35,11 @@
     <key>ParentRecipe</key>
 	<string>com.github.tansharma.download.Transmission</string>
 	<key>Process</key>
-	<array>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>MunkiPkginfoMerger</string>
+        </dict>
         <dict>
             <key>Arguments</key>
             <dict>
