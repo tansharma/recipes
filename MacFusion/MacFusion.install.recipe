@@ -19,10 +19,10 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>InstallFromDMG</string>
+            <string>Unarchiver</string>
             <key>Arguments</key>
             <dict>
-                <key>dmg_path</key>
+                <key>archive_path</key>
                 <string>%pathname%</string>
                 <key>items_to_copy</key>
                 <array>
