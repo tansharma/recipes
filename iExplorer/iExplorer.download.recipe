@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download the latest version of iPhone Explorer</string>
+    <string>Download the latest version of iExplorer</string>
     <key>Identifier</key>
-    <string>com.github.tansharma.download.iPhoneExplorer</string>
+    <string>com.github.tansharma.download.iExplorer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>iPhone Explorer</string>
+        <string>iExplorer</string>
         </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
