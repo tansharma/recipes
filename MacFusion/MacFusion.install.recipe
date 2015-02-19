@@ -24,15 +24,8 @@
             <dict>
                 <key>archive_path</key>
                 <string>%pathname%</string>
-                <key>items_to_copy</key>
-                <array>
-                    <dict>
-                        <key>source_item</key>
-                        <string>Macfusion.app</string>
-                        <key>destination_path</key>
-                        <string>/Applications/</string>
-                    </dict>
-                </array>
+                <key>destination_path</key>
+                <string>/Applications/</string>
             </dict>
         </dict>
     </array>
