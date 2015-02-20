@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.tanhsarma.download.CoRD</string>
+    <string>com.github.tansharma.download.CoRD</string>
     <key>Process</key>
     <array>
         <dict>
