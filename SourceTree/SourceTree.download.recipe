@@ -4,11 +4,9 @@
 <dict>
     <key>Description</key>
     <string>Downloads the current release version of SourceTree.</string>
+    <key>IDENTIFIER</key>
+    <string>com.github.tansharma.download.SourceTree</string>
     <key>Input</key>
-    <dict>
-        <key>IDENTIFIER</key>
-        <string>com.github.tansharma.download.SourceTree</string>
-        <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Source Tree</string>
