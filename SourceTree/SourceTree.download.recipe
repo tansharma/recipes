@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Source Tree</string>
+        <string>SourceTree</string>
         <key>SPARKLE_FEED_URL</key>
         <string>http://sourcetreeapp.com/update/SparkleAppcast.xml</string>
     </dict>
