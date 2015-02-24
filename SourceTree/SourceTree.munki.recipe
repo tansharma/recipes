@@ -33,7 +33,6 @@
     <key>ParentRecipe</key>
     <string>com.github.tansharma.download.SourceTree</string>
     <key>Process</key>
-    <key>Process</key>
     <array>
         <dict>
             <key>Processor</key>
