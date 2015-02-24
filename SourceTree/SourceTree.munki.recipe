@@ -9,7 +9,7 @@
         <key>IDENTIFIER</key>
         <string>com.github.tansharma.munki.SourceTree</string>
         <key>NAME</key>
-        <string>Source Tree</string>
+        <string>SourceTree</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/SourceTree</string>
         <key>pkginfo</key>
