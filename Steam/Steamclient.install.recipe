@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download and install steamclient.</string>
     <key>Identifier</key>
-    <string>com.github.tansharma.install.steamclient</string>
+    <string>com.github.tansharma.install.Steamclient</string>
     <key>Input</key>
     <dict>
         <key>DOWNLOAD_URL</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.tansharma.download.steamclient/string>
+    <string>com.github.tansharma.download.Steamclient/string>
     <key>Process</key>
     <array>
         <dict>
