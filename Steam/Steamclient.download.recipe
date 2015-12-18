@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Adapter</string>
+        <string>SteamClient</string>
         <key>SPARKLE_FEED_URL</key>
         <string>http://client-download.steampowered.com/client/steam_client_osx/string>
     </dict>
