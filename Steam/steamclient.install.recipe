@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download and install iExplorer.</string>
+    <string>Download and install steamclient.</string>
     <key>Identifier</key>
     <string>com.github.tansharma.install.iExplorer</string>
     <key>Input</key>
     <dict>
         <key>DOWNLOAD_URL</key>
-        <string>http://www.macroplant.com/iexplorer/appcast.xml</string>
+        <string>http://client-download.steampowered.com/client/steam_client_osx</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
