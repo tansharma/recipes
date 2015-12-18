@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download the latest version of Steam Client for OSX</string>
     <key>Identifier</key>
-    <string>com.github.tansharma.download.steamclient</string>
+    <string>com.github.tansharma.download.Steamclient</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
