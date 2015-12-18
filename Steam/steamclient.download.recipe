@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download the latest version of Adapter</string>
+    <string>Download the latest version of Steam Client for OSX</string>
     <key>Identifier</key>
-    <string>com.github.tansharma.download.Adapter</string>
+    <string>com.github.tansharma.download.steamclient</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Adapter</string>
         <key>SPARKLE_FEED_URL</key>
-        <string>http://www.macroplant.com/adapter/adapterAppcast.xml</string>
+        <string>http://client-download.steampowered.com/client/steam_client_osx/string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
