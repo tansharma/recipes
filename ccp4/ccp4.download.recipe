@@ -21,7 +21,9 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-               <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/ccp4-7.0-updates-macosx-tar.gz</string>
+               <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/</string>
+               <key>filename</key>
+               <string>ccp4-7.0-updates-macosx-tar.gz</string>
             </dict>
         </dict>
         <dict>
