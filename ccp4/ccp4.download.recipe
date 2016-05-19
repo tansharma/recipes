@@ -27,7 +27,7 @@
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>%NAME%.tar.gz</string>
+                <string>%product_name%.tar.gz</string>
             </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
