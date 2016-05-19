@@ -5,6 +5,14 @@ from autopkglib import Processor, ProcessorError
 
 BASE_URL = "http://series-70.fg.oisin.rc-harwell.ac.uk/update/"
 
+__all__ = ["ccp4URLProvider"]
+
+class ccp4URLProvider(Processor):
+#    description = __doc__
+     output_variables = {
+        url = BASE_URL    
+     }
+
 def main(self):
     url = BASE_URL 
     # Using curl to fetch Location header(s) because urllib/2
@@ -24,6 +32,6 @@ def main(self):
 
     self.env["url"] = parsed_url
 
-#if __name__ == "__main__":
-    PROCESSOR = main()
+if __name__ == "__main__":
+    PROCESSOR = ccp4URLProvider()
     PROCESSOR.execute_shell()
