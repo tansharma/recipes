@@ -17,16 +17,12 @@
    <array>
         <dict>
             <key>Processor</key>
-            <string>ccp4URLProvider</string>
-        </dict>
-        <dict>
+            <string>URLDownloader</string>
             <key>Arguments</key>
             <dict>
-                <key>filename</key>
-                <string>ccp4-7.0-updates-macosx-tar.gz</string>
+                <key>url</key>
+                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64</string>
             </dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
         </dict>
         <dict>
                <key>Processor</key>
