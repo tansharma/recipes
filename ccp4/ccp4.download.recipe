@@ -17,11 +17,11 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>CURLDownloader</string>
+            <string>Copier</string>
             <key>Arguments</key>
             <dict>
-                <key>url</key>
-               <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64</string>
+                <key>source_path</key>
+               <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/</string>
             </dict>
         </dict>
         <dict>
