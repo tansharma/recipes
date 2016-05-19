@@ -9,20 +9,24 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>ccp4</string>
+        <string>ccp4-7.0-updates-macosx</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
    <array>
         <dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
+          <key>Processor</key>
+            <string>CCP4URLProvider</string>
+        </dict>
+        <dict>
             <key>Arguments</key>
             <dict>
-                <key>url</key>
-                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/</string>
+                <key>filename</key>
+                <string>%NAME%.tar.gz</string>
             </dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
         </dict>
         <dict>
                <key>Processor</key>
