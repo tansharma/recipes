@@ -16,14 +16,19 @@
     <key>Process</key>
    <array>
         <dict>
+          <key>Processor</key>
+          <string>FileFinder</string>
+          <key>Arguments</key>
+          <dict>
+            <key>pattern</key>
+            <string>7.0.0</string>
+          </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
             <dict>
                 <key>url</key>
                 <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/</string>
-                <key>filename</key>
-                <string>7.0.*.pck</string>
             </dict>
         </dict>
         <dict>
