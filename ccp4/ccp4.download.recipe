@@ -22,7 +22,6 @@
             <dict>
                 <key>url</key>
                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/</string>
-               #<string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/ccp4-7.0-updates-macosx-tar.gz</string>
             </dict>
         </dict>
         <dict>
