@@ -1,12 +1,7 @@
 #!/usr/bin/python
 #
 
-import re
-import urllib
-import urllib2
-import urlparse
-from distutils.version import LooseVersion
-
+from subprocess import Popen, PIPE
 from autopkglib import Processor, ProcessorError
 
 __all__ = ["CCP4URLProvider"]
