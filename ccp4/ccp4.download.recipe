@@ -24,13 +24,13 @@
             <string>CCP4URLProvider</string>
         </dict>
         <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>filename</key>
-                <string>%product_name%.tar.gz</string>
-            </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
+              <key>Arguments</key>
+              <dict>
+                  <key>filename</key>
+                  <string>%product_name%.tar.gz</string>
+              </dict>
         </dict>
         <dict>
                <key>Processor</key>
