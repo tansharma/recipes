@@ -15,21 +15,23 @@
     <string>0.2.0</string>
     <key>Process</key>
    <array>
+     <dict>
+       <key>Arguments</key>
+       <dict>
+         <key>product_name</key>
+         <string>ccp4-7.0-updates-macosx</string>
+       </dict>
         <key>Processor</key>
             <string>CCP4URLProvider</string>
-        <key>Arguments</key>
-        <dict>
-             <key>product_name</key>
-             <string>ccp4-7.0-updates-macosx</string>
-         </dict>
-        <dict>
+      </dict>
+      <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+            </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
-              <key>Arguments</key>
-              <dict>
-                  <key>filename</key>
-                  <string>%product_name%.tar.gz</string>
-              </dict>
         </dict>
         <dict>
                <key>Processor</key>
