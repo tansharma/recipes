@@ -5,7 +5,7 @@ from autopkglib import Processor, ProcessorError
 
 BASE_URL = "http://series-70.fg.oisin.rc-harwell.ac.uk/update/"
 
-__all__ = ["ccp4URLProvider"]
+#__all__ = ["ccp4URLProvider"]
 
 #class ccp4URLProvider(Processor):
 #    """Provides a download URL for a CCP$ update.
@@ -45,6 +45,6 @@ def main(self):
 
         self.env["url"] = parsed_url
 
-if __name__ == "__main__":
-    PROCESSOR = ccp4URLProvider()
+#if __name__ == "__main__":
+    PROCESSOR = main()
     PROCESSOR.execute_shell()
