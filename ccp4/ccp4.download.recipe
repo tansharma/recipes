@@ -12,7 +12,7 @@
         <string>ccp4</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>7.0.012</string>
+    <string>0.2.0</string>
     <key>Process</key>
     <array>
         <dict>
@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/ccp4-7.0-updates-macosx.tar.gz</string>
+                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/ccp4-7.0-updates-macosx-tar.gz</string>
             </dict>
         </dict>
         <dict>
