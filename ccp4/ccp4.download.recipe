@@ -14,24 +14,27 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
-    <array>
+   <array>
         <dict>
             <key>Processor</key>
-            <string>URLDownloader</string>
+            <string>ccp4URLProvider</string>
             <key>Arguments</key>
             <dict>
-                <key>url</key>
-               <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/</string>
-               <key>filename</key>
-               <string>ccp4-7.0-updates-macosx-tar.gz</string>
+                <key>branch</key>
+                <string>%BRANCH%</string>
             </dict>
         </dict>
         <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>filename</key>
+                <string>ccp4-7.0-updates-macosx-tar.gz</string>
+            </dict>
             <key>Processor</key>
-            <string>Unarchiver</string>
+            <string>URLDownloader</string>
         </dict>
         <dict>
-            <key>Processor</key>
+               <key>Processor</key>
             <string>EndOfCheckPhase</string>
         </dict>
     </array>
