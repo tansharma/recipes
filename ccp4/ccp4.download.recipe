@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Download the latest build of CCP4</string>
+    <key>Identifier</key>
+    <string>com.github.tansharma.download.ccp4</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>ccp4</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>7.0.012</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>SparkleUpdateInfoProvider</string>
+            <key>Arguments</key>
+            <dict>
+                <key>appcast_url</key>
+                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/updates.xml</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>filename</key>
+                <string>%NAME%.zip</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
