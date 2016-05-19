@@ -36,7 +36,7 @@ class CCP4URLProvider(Processor):
         """Provide a CCP4 download URL"""
         # Determine product_name,  and base_url.
         product_name = self.env["product_name"]
-        base_url = self.env.get(BASE_URL)
+        base_url = self.env.get("base_url", BASE_URL)
 
         self.env["url"] = self.get_ccp4_url(
             base_url, product_name)
