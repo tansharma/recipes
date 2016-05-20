@@ -21,9 +21,9 @@
                  <key>Arguments</key>
                      <dict>
                        <key>filename</key>
-				               <string>%NAME%.tar.gz</string>
-				               <key>url</key>
-				               <string>%DOWNLOAD_URL%/%filename%</string>
+		           <string>%NAME%.tar.gz</string>
+			   <key>url</key>
+			   <string>%DOWNLOAD_URL%/%filename%</string>
                      </dict>
                      <key>Processor</key>
                      <string>CURLDownloader</string>
