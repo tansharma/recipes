@@ -17,22 +17,14 @@
    <array>
      <dict>
        <key>Arguments</key>
-       <dict>
-         <key>product_name</key>
-         <string>ccp4-7.0-updates-macosx</string>
-       </dict>
-        <key>Processor</key>
-            <string>CCP4URLProvider</string>
-      </dict>
-      <dict>
+             <key>Processor</key>
+            <string>CURLDownloader</string>
             <key>Arguments</key>
             <dict>
-                <key>filename</key>
-                <string>%NAME%.dmg</string>
-            </dict>
-            <key>Processor</key>
-            <string>CURLDownloader</string>
-        </dict>
+                <key>url</key>
+                <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/ccp4-7.0-updates-macosx.tar.gz</string>
+           </dict>
+      </dict>
         <dict>
                <key>Processor</key>
             <string>EndOfCheckPhase</string>
