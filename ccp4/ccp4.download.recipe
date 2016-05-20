@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>DOWNLOAD_URL</key>
-		    <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64/ccp4-7.0-updates-macosx.tar.gz</string>
+		    <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64</string>
 		    <key>NAME</key>
-		    <string>ccp4-7.0-updates-macosx.tar.gz</string>
+		    <string>ccp4-7.0-updates-macosx</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -21,9 +21,9 @@
                  <key>Arguments</key>
                      <dict>
                        <key>filename</key>
-				               <string>ccp4-7.0-updates-macosx.tar.gz</string>
+				               <string>%NAME%.tar.gz</string>
 				               <key>url</key>
-				               <string>%DOWNLOAD_URL%</string>
+				               <string>%DOWNLOAD_URL%/%filename%</string>
                      </dict>
                      <key>Processor</key>
                      <string>CURLDownloader</string>
