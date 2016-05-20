@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>DOWNLOAD_URL</key>
-		    <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/macosx-x86_64</string>
+		    <string>http://series-70.fg.oisin.rc-harwell.ac.uk/update/</string>
 		    <key>NAME</key>
 		    <string>ccp4-7.0-updates-macosx</string>
     </dict>
